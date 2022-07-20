@@ -9,3 +9,7 @@
     "title url"
     "image paragraph"
 }
+
+.place:last-child{
+    margin: 0 auto 0 auto;
+}
