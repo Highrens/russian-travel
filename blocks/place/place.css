@@ -1,9 +1,10 @@
 .place{
     margin: 0 auto 80px auto;
     max-width: 984px;
+    width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(460px, max-content));
-    grid-template-rows: repeat(3, max-content);
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    grid-template-rows: repeat(2, max-content);
     grid-gap: 48px 32px;
     grid-template-areas: 
     "title url"
@@ -12,4 +13,12 @@
 
 .place:last-child{
     margin: 0 auto 0 auto;
+}
+
+@media screen and (max-width: 647px) {
+    .place{
+        display: flex;
+        flex-direction: column;
+    }
+   
 }

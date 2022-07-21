@@ -9,3 +9,16 @@
 
     text-align: center;
 }
+
+@media screen and (max-width: 540px) {
+    .cover__subtitle{
+        max-width: 250px;
+        width: 100%;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+

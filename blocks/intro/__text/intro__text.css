@@ -3,7 +3,13 @@
 max-width: 60%;
 font-family: 'Inter';
 font-style: normal;
-font-weight:1 400;
+font-weight: 400;
 font-size: 16px;
 line-height: 163%;
+}
+
+@media screen and (max-width: 456px) {
+    .intro__text{
+        max-width: 100%;
+    }
 }
