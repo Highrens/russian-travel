@@ -1,8 +1,11 @@
 .header__lang-link{
-    font-family: 'Inter';
+    font-family: 'Inter', 'Franklin Gothic Medium';
+    font-style: normal;
+
     font-size: 24px;
     font-weight: 400;
     line-height: 28px;
+
     letter-spacing: 0em;
     color: #FFFFFF;
     text-decoration-line: none;
@@ -11,10 +14,11 @@
 
 @media screen and (max-width: 426px) {
     .header__lang-link{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
     font-size: 18px;
     line-height: 20px;
     }
+}
+
+.header__lang-link:first-child{
+    padding-left: 0;
 }

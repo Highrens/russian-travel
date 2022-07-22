@@ -10,15 +10,3 @@
 
     justify-content: center;
   } 
-
-/* @media screen and (max-width: 1024px) {
-    .lead{
-      grid-template-columns: repeat(auto-fit, minmax(100px, 300px));
-    }
-}
-
-@media screen and (max-width: 720px) {
-  .lead{
-    grid-template-columns: repeat(auto-fit, minmax(100px, 352px));
-  }
-} */
