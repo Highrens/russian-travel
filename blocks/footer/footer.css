@@ -1,16 +1,44 @@
 .footer{
     max-width: 1184px;
-    width: 90%;
+    width: 93%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 92px auto 24px auto;
 }
 
+
+@media screen and (max-width: 1024px) {
+    .footer{
+        max-width: 928px;
+        width: 91%;
+    }
+
+}
+
 @media screen and (max-width: 768px) {
+    .footer{
+        max-width: 720px;
+        width: 93.75%;
+        margin: 88px auto 24px auto;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    .footer{
+        width: 90%;
+        margin: 64px auto 24px auto;
+    }
+
+}
+
+/* Меняем вид подвала на колонку, в момент когда ссылки почти накладываются на автора  */
+@media screen and (max-width: 700px) {
     .footer{
         flex-direction: column;
         align-items: flex-start;
     }
 
 }
+

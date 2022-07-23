@@ -15,10 +15,30 @@
     text-align: center;
 }
 
+@media screen and (max-width: 1024px) {
+    .lead__subtitle{
+        margin-bottom: 56px;    
+    }
+
+}
+
 @media screen and (max-width: 720px) {
     .lead__subtitle{
     width: 288px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .lead__subtitle{
+    width: 288px;
     
+    margin-top: 16px;
+    margin-bottom: 40px;
+
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
