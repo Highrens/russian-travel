@@ -1,6 +1,6 @@
 .intro{
     max-width: 984px;
-    width: 90%;
+    width: 95%;
     margin: 92px auto 0 auto;
     display: flex;
     flex-direction: column;
@@ -9,14 +9,16 @@
 
 @media screen and (max-width: 768px) {
     .intro{
+        max-width: 720px;
         margin: 88px auto 0 auto;
-        align-items: center;
+      
     }
 
 }
 
 @media screen and (max-width: 425px) {
     .intro{
+        max-width: 288px;
         margin: 64px auto 0 auto;
     }
 

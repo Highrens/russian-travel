@@ -19,6 +19,7 @@
     .place{
         display: flex;
         flex-direction: column;
+        grid-gap: 32px;
     }
    
 }
